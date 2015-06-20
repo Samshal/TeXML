@@ -1,0 +1,33 @@
+Package Name: TeXML
+@author <samueladeshina73@gmail.com>
+
+This class helps to make the process of
+taking online tests, surveys, questionnaires
+very easy.
+
+It handles everything from creating the questions
+down to randomly assigning the questions to candidates
+and finally calculating the scores.
+
+The best thing about this class is it stores the
+questions in json format (in a json file) in form of
+subjects. This means you can handle enjoy everything
+if you prefer to use javascript or jQuery depending
+on your taste.
+
+To fully understand how this class works you need to
+go through the files in the example directory from both
+your browser and text editor (the comments are 
+more useful, I think)
+
+I'll be available at any of the following
+addresses if you have any question or you just want to
+hangout with someone like you:
+
+=> https://www.facebook.com/samuel.adeshina.779
+=> samueladeshina73@gmail.com
+=> samshaltechs.blogspot.com
+
+Thanks for using this class and remember to have fun
+while coding. 
+
