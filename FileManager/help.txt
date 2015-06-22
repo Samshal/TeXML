@@ -1,0 +1,51 @@
+SIMPLE PHP FILE I/O MANAGER
+@author: <samueladeshina73@gmail.com>
+
+
+Just as the name implies, it is a very simple Class File That
+Can be used to handle various file input/output operations in a
+PHP application. It uses a dot net like syntax for calling
+various file handling operations available such as reading from,
+writing to, creating a new file, truncate a file and appending a new content
+to an already created file. You can do all this by calling only
+one method and passing the appropriate parameters to it.
+
+Example of Class Usage
+
+	/*Class Instantiation*/
+	$FileManagerInstance = new FileManager();
+
+	/*Creating a new File*/
+	$createFile = $FileManagerInstance->File("FileName.fileformat", "Write", "OpenOrCreate", null)
+	if ($createFile)
+	{
+		echo "File Created Successfully";
+	}
+	else
+	{
+		print_r($createFile);
+	}
+
+	/*Truncating A File and Adding A New Content*/
+	$writeFile = $FileManagerInstance->File("FileName.fileformat", "Write", "Truncate", "This is the new content")
+	if ($createFile)
+	{
+		echo "Write Operation Successfully";
+	}
+	else
+	{
+		print_r($writeFile);
+	}
+
+	/* You can follow the same process to append extra contents to a file, just change the "Truncate" parameter to "Append" */
+
+	/*Reading From A File*/
+	$readFile = $FileManagerInstance->File("FileName.fileformat", "Read", "Open", null);
+	echo $readFile;
+
+
+... And thats it, very simple right?
+Always remember to unset unused variables, give this class a good rating on the site and have fun while coding!
+
+
+
